@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1b0d2494f4a29112e0f3",
-    "url": "/elRed/static/css/main.fc9c1b03.chunk.css"
+    "revision": "585be886f12cc101bb60",
+    "url": "/elRed/static/css/main.ba20d994.chunk.css"
   },
   {
-    "revision": "1b0d2494f4a29112e0f3",
-    "url": "/elRed/static/js/main.1b0d2494.chunk.js"
+    "revision": "585be886f12cc101bb60",
+    "url": "/elRed/static/js/main.585be886.chunk.js"
   },
   {
     "revision": "a23dc6c2761d48e5a4d0",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/elRed/static/media/LOGO.493a930a.jpg"
   },
   {
-    "revision": "912a974a358f2d0abc4a9a6f5c50f539",
+    "revision": "4342f9d1e590ad1b83409b513d857271",
     "url": "/elRed/index.html"
   }
 ];
