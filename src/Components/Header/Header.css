@@ -1,0 +1,43 @@
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+.logoimage{
+    width: 30px;
+    height: 30px;
+}
+.form{
+   margin-left: 140px;
+    position: relative;
+}
+
+.search{
+    background-color: aliceblue;
+    position: absolute;
+    top:10px;
+    left: 30px;
+    color: #797a7b;
+
+}
+
+
+.placeholder{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    background-color:aliceblue;
+    padding: 5px 30px;
+
+}
+
+.form-input{
+    background-color: aliceblue;
+    width:400px;
+    margin-left:35px;
+    border-color: aliceblue;
+  
+}
+
