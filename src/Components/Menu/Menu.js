@@ -26,7 +26,7 @@ function MenuHome() {
   };
 
 
-  const[edit,setEdit]=useState(true);
+  const[edit,setEdit]=useState(false);
  const EditClose = (e) => {
      e.preventDefault();
     setEdit(false);
@@ -38,13 +38,7 @@ function MenuHome() {
     console.log(edit);
    };
 
-   useEffect(() => {
-    if (edit) {
-      document.body.classList.add("modal-open");
-    } else {
-      document.body.classList.remove("modal-open");
-    }
-  }, [edit]);
+
 
 
   const [showModal,setShowModal]=useState(false);
@@ -358,7 +352,7 @@ const handleRemove=(i)=>{
 
 {/* Contact Edit section */}
 
-{edit && (
+
  <Modal dialogClassName='modal-side' animation={true}    show={edit}    onHide={()=>setEdit(false)} >
      <Modal.Header >
        <Modal.Title><ArrowLeftShort style={{cursor:'pointer'}} onClick={EditClose}   />   Contact</Modal.Title>
@@ -397,7 +391,7 @@ const handleRemove=(i)=>{
          </Form>
          </Container>
     </Modal.Body>
-</Modal>) }
+</Modal>
 
 
 {/* Address section */}
